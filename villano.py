@@ -6,7 +6,7 @@ import util
 class Villano(Sprite):
 	def __init__(self,coord,vel):
 		Sprite.__init__(self)
-		self.image = util.cargar_imagen('imagenes/chinchilla.png')
+		self.image = util.cargar_imagen('imagenes/obs1.png')
 		self.rect = self.image.get_rect()
 		self.rect.move_ip(coord[0], coord[1])
 		self.dir = "l"
